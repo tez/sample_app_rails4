@@ -54,3 +54,12 @@ $ git commit -m "Initial commit"
 
 $ git mv README.rdoc README.md
 $ git commit -am "Improve the README"
+
+$ git remote add origin git@github.com:tez/sample_app_rails4.git
+$ git push -u origin master
+
+$ git checkout -b static-pages
+$ rails generate controller StaticPages home help --no-test-framework
+
+$ git add .
+$ git commit -m "Add a StaticPages controller"
