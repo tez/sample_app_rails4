@@ -48,3 +48,6 @@ end
 SampleAppRails4::Application.config.secret_key_base = secure_token
 
 $ rails generate rspec:install
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
