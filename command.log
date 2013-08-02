@@ -72,3 +72,18 @@ $ git commit -m "Finish static pages"
 $ git checkout master
 $ git merge static-pages
 $ git push
+
+$ git checkout -b static-pages-exercises
+
+$ bundle exec guard init rspec
+$ bundle exec spork --bootstrap
+
+$ bundle exec guard init spork
+
+$ git add .
+$ git commit -m "Finish static pages exercises"
+
+$ git checkout master
+$ git merge static-pages-exercises
+$ git push
+
