@@ -63,3 +63,12 @@ $ rails generate controller StaticPages home help --no-test-framework
 
 $ git add .
 $ git commit -m "Add a StaticPages controller"
+
+$ rails generate integration_test static_pages
+
+$ git add .
+$ git commit -m "Finish static pages"
+
+$ git checkout master
+$ git merge static-pages
+$ git push
