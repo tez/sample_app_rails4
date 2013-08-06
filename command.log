@@ -87,3 +87,14 @@ $ git checkout master
 $ git merge static-pages-exercises
 $ git push
 
+$ git add .
+$ git commit -m "Add a full_title helper"
+
+$ git checkout -b filling-in-layout
+$ rails generate controller Users new --no-test-framework
+$ rails generate integration_test user_pages
+
+$ git add .
+$ git commit -m "Finish layout and routes"
+$ git checkout master
+$ git merge filling-in-layout
