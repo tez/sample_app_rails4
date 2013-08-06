@@ -42,6 +42,7 @@
     <orderEntry type="library" scope="PROVIDED" name="growl (v1.0.3, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard (v1.8.2, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-rspec (v2.5.0, rbenv: 2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="guard-spork (v1.5.0, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.4, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v1.0.2, rbenv: 2.0.0-p247) [gem]" level="application" />
@@ -79,6 +80,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.3.20, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.0.0, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="slop (v3.4.6, rbenv: 2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spork (v1.0.0rc3, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.10.0, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.0.0, rbenv: 2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.7, rbenv: 2.0.0-p247) [gem]" level="application" />
