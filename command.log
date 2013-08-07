@@ -98,3 +98,9 @@ $ git add .
 $ git commit -m "Finish layout and routes"
 $ git checkout master
 $ git merge filling-in-layout
+
+
+$ rails generate model User name:string email:string
+$ rails generate migration add_index_to_users_email
+
+$ rails generate migration add_password_digest_to_users password_digest:string
