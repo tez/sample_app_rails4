@@ -104,3 +104,16 @@ $ rails generate model User name:string email:string
 $ rails generate migration add_index_to_users_email
 
 $ rails generate migration add_password_digest_to_users password_digest:string
+
+
+$ git add .
+$ git commit -m "Make a basic User model (including secure passwords)"
+
+$ git checkout master
+$ git merge modeling-users
+$ git checkout -b sign-up
+
+
+$ git commit -m "Finish user signup"
+$ git checkout master
+$ git merge sign-up
