@@ -119,3 +119,5 @@ $ git checkout master
 $ git merge sign-up
 
 $ rails generate migration add_remember_token_to_users
+
+$ rails generate migration add_admin_to_users admin:boolean
