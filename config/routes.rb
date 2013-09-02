@@ -1,6 +1,7 @@
 SampleAppRails4::Application.routes.draw do
   resources :users
-  resources :sessions, only: [:new, :create, :destroy]
+  resources :sessions,    only: [:new, :create, :destroy]
+  resources :microposts,  only: [:create, :destroy]
   root  'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
@@ -63,3 +64,26 @@ SampleAppRails4::Application.routes.draw do
   #     resources :products
   #   end
 end
+#== Route Map
+# Generated on 19 Aug 2013 20:50
+#
+#         users GET    /users(.:format)          users#index
+#               POST   /users(.:format)          users#create
+#      new_user GET    /users/new(.:format)      users#new
+#     edit_user GET    /users/:id/edit(.:format) users#edit
+#          user GET    /users/:id(.:format)      users#show
+#               PATCH  /users/:id(.:format)      users#update
+#               PUT    /users/:id(.:format)      users#update
+#               DELETE /users/:id(.:format)      users#destroy
+#      sessions POST   /sessions(.:format)       sessions#create
+#   new_session GET    /sessions/new(.:format)   sessions#new
+#       session DELETE /sessions/:id(.:format)   sessions#destroy
+# new_micropost GET    /microposts/new(.:format) microposts#new
+#     micropost DELETE /microposts/:id(.:format) microposts#destroy
+#          root GET    /                         static_pages#home
+#        signup GET    /signup(.:format)         users#new
+#        signin GET    /signin(.:format)         sessions#new
+#       signout DELETE /signout(.:format)        sessions#destroy
+#          help GET    /help(.:format)           static_pages#help
+#         about GET    /about(.:format)          static_pages#about
+#       contact GET    /contact(.:format)        static_pages#contact
